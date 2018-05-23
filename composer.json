@@ -23,13 +23,13 @@
     },
     "autoload": {
         "psr-4": {
-            "core\\" : "phpinc/core",
-            "service\\" : "phpinc/service",
-            "util\\" : "phpinc/util",
+            "core\\" : "style/core",
+            "service\\" : "style/service",
+            "util\\" : "style/util",
             "home\\" : "htdocs/home/controllers"
         },
         "psr-0": {
-            "Db" : "phpinc/lib"
+            "Db" : "style/lib"
         }
     },
   "repositories": {
