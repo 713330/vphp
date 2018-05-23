@@ -52,8 +52,6 @@
     define('IS_WIN', strpos(PHP_OS, 'WIN') !== false);
     //缓存路径
     define('CACHE_PATH', BS . 'data' . DS . 'cache');
-    // 活动专题，领取的积分
-    define('USER_READ_POINT', 10000);
 
     //系统设置
     mb_internal_encoding('UTF-8');
